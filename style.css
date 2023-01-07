@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Blank's Script";
+    src: url("files/BlankScript.otf") format('opentype');
+}
+* {
+    background-color: black;
+    color: white;
+    font-family: "Blank's Script";
+}
+.container {
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clicker {
+    padding: 0px 15px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.generate {
+    height: 50px;
+    width: 175px;
+    font-size: 34px;
+    font-weight: 100;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(57, 0, 92);
+}
+.generate a {
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+.generate a:visited {
+    background: none;
+    color: white;
+}
+.generate:hover {
+    background-color: rgb(189, 0, 0);
+    border: 1px solid rgb(219, 219, 219);
+}
+.generate:active {
+    background-color: rgb(255, 211, 211);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+.vid-ids {
+    display: none;
+}
